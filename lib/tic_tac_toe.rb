@@ -168,8 +168,6 @@ end
 def play(board)
   until over?(board)
     turn(board)
-
-
     if winner(board)=="X"
       puts "Congratulations X!"
     elsif winner(board)=="O"
